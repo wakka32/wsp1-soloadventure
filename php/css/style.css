@@ -1,19 +1,29 @@
 body {
-    background-color: bisque;
-    font-size: 16px;
-}
+    background-color: grey;
+    font-size: 28px;
+    color: white;
+    border-style: double;}
+
 
 main {
-    width: 60%;
+    width: 85%;
     margin: 0 auto;
+    
 }
 
 p {
     font-size: 1.4em;
 }
 
+a:link, a:visited {
+    color: white;
+}
+
 ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    font-size: 20px;
+    border-style: double
 }
+

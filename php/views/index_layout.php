@@ -15,7 +15,11 @@
 
         <ul>
             <?php foreach ($links as $link): ?>
-                <li><?= $link['description'] ?></li>
+                <li>
+                <a href="?id=<?= $link['target_id'] ?>">  
+                    <?= $link['description'] ?>
+                </a>
+                </li>
             <?php endforeach ?>
         </ul>
     </main>
