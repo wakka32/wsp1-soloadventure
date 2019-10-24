@@ -1,7 +1,7 @@
 body {
-    background-color: grey;
+    background-color: red;
     font-size: 28px;
-    color: white  ;
+    color: aqua  ;
     border-style: double;}
 
 
@@ -16,7 +16,7 @@ p {
 }
 
 a:link, a:visited {
-    color: white;
+    color: aqua;
 }
 
 ul {
